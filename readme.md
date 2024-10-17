@@ -33,7 +33,7 @@ Added 2 Stored procedures
 1. OptimizedQueryGetMaxQuantity.sql
 2. StoredProcedureCancelOrder.sql
 
-and 1 Prepared statment
+and 1 Prepared statement
 1. PreparedeStatementGetOrderDetails.sql 
 
 as SQL files.
