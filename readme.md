@@ -23,3 +23,17 @@ Process and ideas when normalizing tables:
 
 - StaffInformation is modified and a DepartmentID foreign key was added to enable the messages, regardless of who is working in that department. This allows multiple staff to do the same functions.
 
+10/17/2024 - 
+Added 3 Virtual tables
+1. VirtualTableOrdersView.sql
+2. JOINOrderAbove150.sql
+3. SubQueryMoreThanTwoItems
+
+Added 2 Stored procedures
+1. OptimizedQueryGetMaxQuantity.sql
+2. StoredProcedureCancelOrder.sql
+
+and 1 Prepared statment
+1. PreparedeStatementGetOrderDetails.sql 
+
+as SQL files.
