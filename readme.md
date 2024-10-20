@@ -37,3 +37,13 @@ and 1 Prepared statement
 1. PreparedeStatementGetOrderDetails.sql 
 
 as SQL files.
+
+10/20/2024 -
+- Reorganized the 3 virtual tables into one folder named SalesReportVirtualTables.
+- Reorganized the 2 stored procedures and the prepared statements into the PreparedStatementProcedureOptimizedQuery folder as a general folder to show that I am able to create such processes.
+- Created a new folder to create a booking system. It contains stored procedures that allow the user to: 
+1. Add a booking, [AddBooking] (Inserts data into the booking table without checking if other bookings are reserved. Meant for first orders.)
+2. Add a valid booking, [AddValidBooking] (Checks if the date and table are already booked before placing a booking, meant to display the use of transactions and version control.) 
+3. Cancel a booking, [CancelBooking] (Deletes booking from the bookings table where the BookingID matches the input.)
+4. Checking if there is a booking available, [CheckBooking] (This procedure checks if there is a booking already in the date and time the user is trying to reserve.)
+5. Update the BookingDate, [UpdateBooking] (Updates the booking date to another day.)
