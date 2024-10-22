@@ -47,3 +47,8 @@ as SQL files.
 3. Cancel a booking, [CancelBooking] (Deletes booking from the bookings table where the BookingID matches the input.)
 4. Checking if there is a booking available, [CheckBooking] (This procedure checks if there is a booking already in the date and time the user is trying to reserve.)
 5. Update the BookingDate, [UpdateBooking] (Updates the booking date to another day.)
+
+10/22/2024 -
+- Added mysqlconnector code for Jupyter for python and mysql
+- Included the Excel and Tableau files in the TableauTablesDash
+(Optional) Clean Excel data to import it into MySQL Workbench (Used for Tableau mainly)
