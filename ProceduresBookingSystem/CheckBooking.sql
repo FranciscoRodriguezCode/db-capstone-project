@@ -1,4 +1,4 @@
-CREATE DEFINER=`dbCapstone`@`%` PROCEDURE `ManageBooking`(IN searchDate DATE, IN searchTable INT)
+CREATE DEFINER=`dbCapstone`@`%` PROCEDURE `CheckBooking`(IN searchDate DATE, IN searchTable INT)
 BEGIN
 
 DECLARE OutPut VARCHAR(255);
